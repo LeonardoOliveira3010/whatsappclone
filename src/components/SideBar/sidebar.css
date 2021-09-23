@@ -30,3 +30,18 @@
   margin-left: 10px;
   font-family: 'Poppins', sans-serif;
 }
+
+.chatlist{
+  flex: 1;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.chatlist::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+
+.chatlist::-webkit-scrollbar-thumb{
+  background-color: rgb(0,0,0, 0.2)
+}
