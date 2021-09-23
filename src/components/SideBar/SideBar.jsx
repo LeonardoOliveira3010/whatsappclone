@@ -5,7 +5,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import './sidebar.css'
 
 const SideBar = () =>{
-    const[chatlist, setChatList] = useState([{}, {}, {}, {}, {}])
+    const[chatlist, setChatList] = useState([{}, {}, {}, {}, {},{}, {}, {}, {}, {},{}, {}, {}, {}, {}])
 
     return(
         <>
@@ -21,9 +21,9 @@ const SideBar = () =>{
 
                 <div className="chatlist">
                     {/* loop utilizando o map */}
-                    {chatlist.map(() => <ChatListItem key={key}/>)}
+                    {chatlist.map((item, key) => <ChatListItem key={key}/>)}
                 </div>
-            </div>
+            </div>   
         </>
     )
 }
