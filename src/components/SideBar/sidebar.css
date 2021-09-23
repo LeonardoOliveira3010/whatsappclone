@@ -8,7 +8,7 @@
 }
 
 .search{
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   border-bottom: 1px solid #eee;
   padding: 5px 15px;
 }
@@ -28,4 +28,5 @@
   outline: none;
   background-color: transparent;
   margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
 }
