@@ -1,5 +1,6 @@
 import React from 'react';
 import SideBar from './components/SideBar/SideBar';
+import ContentArea from './components/ContentArea/ContentArea';
 import './App.css';
 
 
@@ -12,9 +13,7 @@ function App() {
           
         </ SideBar>
 
-        <div className="contentarea">
-
-        </div>
+        <ContentArea />
       </div>
     </>
   );
